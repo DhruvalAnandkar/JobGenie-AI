@@ -1,0 +1,13 @@
+from motor.motor_asyncio import AsyncIOMotorClient
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+MONGO_URI = os.getenv("MONGODB_URI")
+DB_NAME = os.getenv("DB_NAME")
+
+client = AsyncIOMotorClient(MONGO_URI)
+db = client[DB_NAME]
+
+# Now you can do: db.collection_name.find(), insert_one(), etc.
