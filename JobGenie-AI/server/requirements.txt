@@ -9,3 +9,4 @@ httpx
 pdfplumber
 requests
 numpy
+python-multipart
