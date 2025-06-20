@@ -8,3 +8,4 @@ openai
 httpx
 pdfplumber
 requests
+numpy
