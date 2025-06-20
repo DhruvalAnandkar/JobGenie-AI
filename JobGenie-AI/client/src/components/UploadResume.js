@@ -23,7 +23,7 @@ function UploadResume() {
 
     try {
       setLoading(true);
-      const res = await axios.post("http://127.0.0.1:8000/upload-resume/", formData, {
+      const res = await axios.post("https://jobgenie-ai.onrender.com/upload-resume/", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setResponse(res.data);
