@@ -56,7 +56,7 @@ jobgenie-ai/
 ### 1. Clone the Repository
 
 
-git clone https://github.com/yourusername/jobgenie-ai.git
+git clone https://github.com/DhruvalAnandkar/JobGenie-AI.git
 cd jobgenie-ai
 2. Frontend Setup (client/)
 
