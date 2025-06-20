@@ -53,7 +53,7 @@ function UploadResumeMulti() {
 
     try {
       setLoading(true);
-      const res = await axios.post("http://127.0.0.1:8000/upload-resume-multi/", formData, {
+      const res = await axios.post("https://jobgenie-ai.onrender.com/upload-resume-multi/", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setResponse(res.data);
@@ -146,101 +146,7 @@ function UploadResumeMulti() {
 }
 
 const styles = {
-  page: {
-    minHeight: "100vh",
-    background: "linear-gradient(135deg, #e0f0ff, #f9faff)",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "flex-start",
-    padding: "3rem 1rem",
-    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-  },
-  card: {
-    background: "#fff",
-    padding: "2.5rem 3rem",
-    borderRadius: 12,
-    boxShadow: "0 12px 28px rgba(0,0,0,0.1)",
-    maxWidth: 900,
-    width: "100%",
-    textAlign: "center",
-  },
-  title: {
-    marginBottom: 24,
-    fontWeight: "700",
-    color: "#1a73e8",
-    fontSize: "2.2rem",
-  },
-  fileLabel: {
-    display: "inline-block",
-    padding: "1rem 2rem",
-    marginBottom: 20,
-    border: "2px dashed #1a73e8",
-    borderRadius: 8,
-    cursor: "pointer",
-    fontSize: 16,
-    color: "#1a73e8",
-    userSelect: "none",
-    transition: "background-color 0.2s ease",
-  },
-  fileInput: {
-    display: "none",
-  },
-  textarea: {
-    width: "100%",
-    fontSize: 16,
-    fontFamily: "monospace",
-    padding: 12,
-    marginBottom: 20,
-    borderRadius: 8,
-    border: "1.5px solid #ccc",
-    resize: "vertical",
-  },
-  button: {
-    backgroundColor: "#1a73e8",
-    color: "#fff",
-    padding: "0.9rem 2rem",
-    border: "none",
-    borderRadius: 6,
-    fontSize: 18,
-    cursor: "pointer",
-    fontWeight: "600",
-    transition: "background-color 0.3s ease",
-  },
-  buttonDisabled: {
-    backgroundColor: "#7da7e9",
-    color: "#eee",
-    padding: "0.9rem 2rem",
-    border: "none",
-    borderRadius: 6,
-    fontSize: 18,
-    fontWeight: "600",
-    cursor: "not-allowed",
-  },
-  resultBox: {
-    marginTop: 32,
-    textAlign: "left",
-  },
-  subTitle: {
-    color: "#0f9d58",
-    marginBottom: 12,
-  },
-  codeBlock: {
-    background: "#e6f0ff",
-    padding: 16,
-    borderRadius: 8,
-    fontSize: 14,
-    whiteSpace: "pre-wrap",
-    maxHeight: 220,
-    overflowY: "auto",
-    fontFamily: "'Courier New', Courier, monospace",
-  },
-  matchCard: {
-    marginTop: 20,
-    padding: 20,
-    background: "#f9faff",
-    borderRadius: 10,
-    boxShadow: "0 4px 12px rgba(26, 115, 232, 0.15)",
-  },
+  ... // (same styles as before — you don’t need to change this)
 };
 
 export default UploadResumeMulti;
