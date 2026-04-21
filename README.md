@@ -5,7 +5,7 @@ A full-stack AI-powered platform that intelligently matches your resume to job d
 ---
 
 ## 🌟 Features
-
+ 
 - 📄 **Smart Resume Upload** – Upload PDF, DOCX, or TXT resumes
 - 🔍 **LLM-Powered Matching** – Uses OpenAI embeddings + GPT-4 for match scoring & feedback
 - 📊 **Interactive Dashboard** – View job match scores with visual charts (Recharts)
