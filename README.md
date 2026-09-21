@@ -1,19 +1,19 @@
-# 🧠 JobGenie AI – LLM-Powered Job Matcher 🚀
+# JobGenie AI – LLM-Powered Job Matcher
 
 A full-stack AI-powered platform that intelligently matches your resume to job descriptions using OpenAI's GPT-4 and Embedding models. Built for students, developers, and recruiters looking for smart resume-job fit analysis with visual dashboards.
 
 ---
 
-## 🌟 Features
+##  Features
  
-- 📄 **Smart Resume Upload** – Upload PDF, DOCX, or TXT resumes
-- 🔍 **LLM-Powered Matching** – Uses OpenAI embeddings + GPT-4 for match scoring & feedback
-- 📊 **Interactive Dashboard** – View job match scores with visual charts (Recharts)
-- 🧠 **AI Suggestions** – Recommends job roles, skill improvements, and optional cover letter generation
+-  **Smart Resume Upload** – Upload PDF, DOCX, or TXT resumes
+-  **LLM-Powered Matching** – Uses OpenAI embeddings + GPT-4 for match scoring & feedback
+-  **Interactive Dashboard** – View job match scores with visual charts (Recharts)
+-  **AI Suggestions** – Recommends job roles, skill improvements, and optional cover letter generation
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 | Layer        | Tech Used |
 | ------------ | --------- |
@@ -26,14 +26,14 @@ A full-stack AI-powered platform that intelligently matches your resume to job d
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
-🌐 **Frontend**: [job-genie-ai.vercel.app](https://job-genie-ai-five.vercel.app)  
-⚙️ **Backend API**: [jobgenie-ai.onrender.com](https://jobgenie-ai.onrender.com)
+ **Frontend**: [job-genie-ai.vercel.app](https://job-genie-ai-five.vercel.app)  
+ **Backend API**: [jobgenie-ai.onrender.com](https://jobgenie-ai.onrender.com)
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 jobgenie-ai/
 ├── client/ # React Frontend
@@ -51,7 +51,7 @@ jobgenie-ai/
 
 ---
 
-## 📦 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -70,9 +70,9 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload
-🔐 Create a .env file for your OpenAI API key, MongoDB URI, etc.
+Create a .env file for your OpenAI API key, MongoDB URI, etc.
 
-🧠 How It Works
+How It Works
 User uploads resume
 
 Job descriptions are parsed via API or entered
@@ -83,20 +83,20 @@ Match score + LLM explanation is generated
 
 Results visualized via bar charts and match cards
 
-🤝 Contributing
+Contributing
 Pull requests are welcome! If you'd like to improve UI, add GPT agents, or connect new job APIs—feel free to contribute. 🤗
 
-📬 Contact
-👨‍💻 Dhruval Anandkar
-📧 dhruvalabroad@gmail.com
-🔗 LinkedIn | GitHub
+Contact
+Dhruval Anandkar
+dhruvalabroad@gmail.com
+LinkedIn | GitHub
 
-🏁 Future Roadmap
-🔄 LinkedIn/Indeed real-time job scraping
+Future Roadmap
+LinkedIn/Indeed real-time job scraping
 
-📬 Cover letter + email pitch generator
+Cover letter + email pitch generator
 
-🧾 Resume rewrite tool
+Resume rewrite tool
 
 🌍 Multi-language support
 
